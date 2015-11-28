@@ -12,4 +12,5 @@ interfaces\Manager.class
 interfaces\PO\TarifPO.class
 interfaces\PO\ContractPO.class
 interfaces\DAO\Implementation\ContractDAOImpl.class
+interfaces\Servlets\LoginScreen.class
 interfaces\Services\OperatorService.class
