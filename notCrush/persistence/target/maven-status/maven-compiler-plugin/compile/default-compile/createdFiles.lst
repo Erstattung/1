@@ -1,0 +1,15 @@
+interfaces\DAO\Implementation\ClientDAOImpl.class
+interfaces\DAO\GenericDAOInterface.class
+interfaces\DAO\GenericDAOImpl.class
+interfaces\PO\OptionPO.class
+interfaces\DAO\Implementation\TarifDAOImpl.class
+interfaces\Servlets\Test.class
+interfaces\Main.class
+interfaces\Servlets\MyServlet.class
+interfaces\PO\ClientPO.class
+interfaces\DAO\Implementation\OptionDAOImpl.class
+interfaces\Manager.class
+interfaces\PO\TarifPO.class
+interfaces\PO\ContractPO.class
+interfaces\DAO\Implementation\ContractDAOImpl.class
+interfaces\Services\OperatorService.class
