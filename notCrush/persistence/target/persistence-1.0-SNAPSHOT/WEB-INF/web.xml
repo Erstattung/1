@@ -18,7 +18,6 @@
     <servlet-class>interfaces.Servlets.LoginScreen</servlet-class>
   </servlet>
 
-
   <servlet-mapping>
     <servlet-name>MyServlet</servlet-name>
     <url-pattern>/Si</url-pattern>

@@ -5,40 +5,45 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>login screen</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-<h1>Please log in</h1>
-<form action = "servlet-parameters" method = "GET">
-    <table border = "0">
-
-        <tr>
-            <td><b>email</b></td>
-            <td><input type = "text" name = "email"
-                       value = "login" size = "30"/></td>
-        </tr>
-
-        <tr>
-            <td><b>password</b></td>
-            <td><input type = "text" name = "password"
-                       value = "pswd" size = "30"/></td>
-        </tr>
-
-        <%--<tr>--%>
-            <%--<td>Parameter choice</td>--%>
-            <%--<td>--%>
-                <%--<select name = "possible-result">--%>
-                    <%--<option value = "SUCCESS">Success</option>--%>
-                    <%--<option value = "ERR-500">ERR-500 Technical error</option>--%>
-                    <%--<option value = "ERR-1003">ERR-1003 Requested information is not available</option>--%>
-                    <%--<option value = "ERR-1005">ERR-1005 Some other Error</option>--%>
-                <%--</select>--%>
-            <%--</td>--%>
-        <%--</tr>--%>
-
-        <tr>
-            <td colspan = "2"><input type = "submit" value = "sign in"/></td>
-        </tr>
+<h1>${message}</h1>
+<form class="form-horizontal" method="post" action="login">
+    <div class="form-group">
+        <label for="mail" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-4">
+            <input type="email" class="form-control" name="email" id="mail" placeholder="Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="pass" class="col-sm-2 control-label">Password</label>
+        <div class="col-sm-4">
+            <input type="password" class="form-control" name="pass" id="pass" placeholder="Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-6">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" value="login" class="btn btn-success">Submit</button>
+        </div>
+    </div>
+</form>
     </table>
 </form>
 </body>

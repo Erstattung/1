@@ -1,5 +1,5 @@
 <%@ page import="java.util.List" %>
-<%@ page import="interfaces.PO.ClientPO" %>
+<%@ page import="main.PO.ClientPO" %>
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
@@ -15,7 +15,7 @@
     <title>All clients</title>
 </head>
 <body>
-<%--<jsp:useBean id="clientList" scope="request" type="interfaces.DAO.GenericDAOImpl"/>--%>
+<%--<jsp:useBean id="clientList" scope="request" type="main.DAO.GenericDAOImpl"/>--%>
 
 
 <c:forEach var="client" items="${clientList}">

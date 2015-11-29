@@ -1,9 +1,16 @@
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\DAO\Implementation\ContractDAOImpl.java
+C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Services\OperatorServiceImpl.java
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\PO\OptionPO.java
+C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Services\ClientServiceImpl.java
+C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Exceptions\WrongIdException.java
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Servlets\LoginScreen.java
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Servlets\MyServlet.java
+C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Exceptions\RequiredOptionException.java
+C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Exceptions\ServiceOperationException.java
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\DAO\Implementation\OptionDAOImpl.java
+C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Exceptions\IncompatibleOptionException.java
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Services\OperatorService.java
+C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Services\ClientService.java
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\PO\ClientPO.java
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\DAO\Implementation\ClientDAOImpl.java
 C:\Users\echerkas\Desktop\1\1\notCrush\persistence\src\main\java\interfaces\Servlets\Test.java
