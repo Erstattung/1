@@ -6,16 +6,16 @@
 
   <servlet>
     <servlet-name>MyServlet</servlet-name>
-    <servlet-class>interfaces.Servlets.MyServlet</servlet-class>
+    <servlet-class>main.Servlets.MyServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Test</servlet-name>
-    <servlet-class>interfaces.Servlets.Test</servlet-class>
+    <servlet-class>main.Servlets.Test</servlet-class>
   </servlet>
 
   <servlet>
     <servlet-name>login</servlet-name>
-    <servlet-class>interfaces.Servlets.LoginScreen</servlet-class>
+    <servlet-class>main.Servlets.LoginScreen</servlet-class>
   </servlet>
 
   <servlet-mapping>
@@ -53,7 +53,7 @@
 
   <!--<servlet>-->
     <!--<servlet-name>Servlets</servlet-name>-->
-    <!--<servlet-class>interfaces.Servlets.Servlets</servlet-class>-->
+    <!--<servlet-class>main.Servlets.Servlets</servlet-class>-->
   <!--</servlet>-->
   <!--<servlet-mapping>-->
     <!--<servlet-name>Servlets</servlet-name>-->
@@ -62,7 +62,7 @@
 
   <!--&lt;!&ndash;<servlet>&ndash;&gt;-->
     <!--&lt;!&ndash;<servlet-name>getClients</servlet-name>&ndash;&gt;-->
-    <!--&lt;!&ndash;<servlet-class>interfaces.Servlets.GetClients</servlet-class>&ndash;&gt;-->
+    <!--&lt;!&ndash;<servlet-class>main.Servlets.GetClients</servlet-class>&ndash;&gt;-->
   <!--&lt;!&ndash;</servlet>&ndash;&gt;-->
 
   <!--&lt;!&ndash;<servlet-mapping>&ndash;&gt;-->
@@ -72,7 +72,7 @@
 
   <!--&lt;!&ndash;<servlet>&ndash;&gt;-->
     <!--&lt;!&ndash;<servlet-name>getClientName</servlet-name>&ndash;&gt;-->
-    <!--&lt;!&ndash;<servlet-class>interfaces.Servlets.GetClientName</servlet-class>&ndash;&gt;-->
+    <!--&lt;!&ndash;<servlet-class>main.Servlets.GetClientName</servlet-class>&ndash;&gt;-->
   <!--&lt;!&ndash;</servlet>&ndash;&gt;-->
 
   <!--&lt;!&ndash;<servlet-mapping>&ndash;&gt;-->
@@ -82,7 +82,7 @@
 
   <!--&lt;!&ndash;<servlet>&ndash;&gt;-->
     <!--&lt;!&ndash;<servlet-name>getTarifByID</servlet-name>&ndash;&gt;-->
-    <!--&lt;!&ndash;<servlet-class>interfaces.Servlets.GetTarifByID</servlet-class>&ndash;&gt;-->
+    <!--&lt;!&ndash;<servlet-class>main.Servlets.GetTarifByID</servlet-class>&ndash;&gt;-->
   <!--&lt;!&ndash;</servlet>&ndash;&gt;-->
 
   <!--&lt;!&ndash;<servlet-mapping>&ndash;&gt;-->
