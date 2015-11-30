@@ -1,0 +1,4 @@
+.DS_Store
+notCrush/.idea
+notCrush/persistence/target
+*.iml
