@@ -14,7 +14,7 @@
   </servlet>
 
   <servlet>
-    <servlet-name>login</servlet-name>
+    <servlet-name>LoginScreen</servlet-name>
     <servlet-class>main.Servlets.LoginScreen</servlet-class>
   </servlet>
 
@@ -28,7 +28,7 @@
   </servlet-mapping>
 
   <servlet-mapping>
-    <servlet-name>login</servlet-name>
+    <servlet-name>LoginScreen</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 
