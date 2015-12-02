@@ -31,6 +31,9 @@ public interface OperatorService {
     TarifPO getTarif(Long tariffId);
 
     List<TarifPO> getTarifs();
+
+    ClientPO getClient(String email, String password);
+
     //void lockNumber(String number);
 //
 //

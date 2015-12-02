@@ -16,36 +16,48 @@
 
 <body>
 <h3></h3>
-<ul class="nav nav-tabs" id="myTab">
-    <li class="active"><a href="#home">???????</a></li>
-    <li><a href="#profile">???????</a></li>
-    <li><a href="#messages">?????????</a></li>
-    <li><a href="#settings">?????????</a></li>
-</ul>
+<form class="form-horizontal" method="post" action="welcome">
+<%--<ul class="nav nav-tabs" id="myTab">--%>
+    <%--<li class="active"><a href="#home">???????</a></li>--%>
+    <%--<li><a href="#profile">???????</a></li>--%>
+    <%--<li><a href="#messages">?????????</a></li>--%>
+    <%--<li><a href="#settings">?????????</a></li>--%>
+<%--</ul>--%>
 
-<div class="tab-content">
-    <div class="tab-pane active" id="home">...</div>
-    <div class="tab-pane" id="profile">...</div>
-    <div class="tab-pane" id="messages">...</div>
-    <div class="tab-pane" id="settings">...</div>
-</div>
+<%--<div class="tab-content">--%>
+    <%--<div class="tab-pane active" id="home">...</div>--%>
+    <%--<div class="tab-pane" id="profile">...</div>--%>
+    <%--<div class="tab-pane" id="messages">...</div>--%>
+    <%--<div class="tab-pane" id="settings">...</div>--%>
+<%--</div>--%>
 
 <script>
     $(function () {
         $('#myTab a:last').tab('show');
     })
 </script>
-<%--<ul class="nav nav-pills">--%>
-    <%--<li class="active"><a href="#">Link</a></li>--%>
-    <%--<li class="dropdown">--%>
-        <%--<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu <b class="caret"></b></a>--%>
-        <%--<ul id="menu1" class="dropdown-menu">--%>
-            <%--<li><a href="#">Action</a></li>--%>
-            <%--<li><a href="#">Another action</a></li>--%>
-            <%--<li><a href="#">Link</a></li>--%>
-            <%--<li class="divider"></li>--%>
-            <%--<li><a href="#">Separate link</a></li>--%>
-        <%--</ul>--%>
+<ul class="nav nav-pills">
+    <li class="active"><a href="#">Link</a></li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tarif <b class="caret"></b></a>
+        <ul id="menu1" class="dropdown-menu">
+            <li><a href="#">Best tarif</a></li>
+            <li><a href="#">Not really good tarif</a></li>
+            <li><a href="#">Great tarif</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Tarif for you</a></li>
+        </ul>
+    </li>
+
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Option <b class="caret"></b></a>
+        <ul id="menu2" class="dropdown-menu">
+            <li><a href="#">Best option</a></li>
+            <li><a href="#">Not really good option</a></li>
+            <li><a href="#">Great option</a></li>
+            <li class="divider"></li>
+            <li><a href="#">option for you</a></li>
+        </ul>
     </li>
 </ul>
 </table>

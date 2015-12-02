@@ -36,6 +36,7 @@ public class OperatorServiceImpl implements OperatorService {
             client.setPassport(passport);
             client.setMail(email);
             client.setPassword(password);
+            client.setAdminRole(false);
             clientDAO.create(client);
         }
 
@@ -94,4 +95,7 @@ public class OperatorServiceImpl implements OperatorService {
         public List<TarifPO> getTarifs() {
             return tarifDAO.getAll();
         }
+
+        @Override
+        public ClientPO getClient(String email, String password){return clientDAO.findByEmailPass(email, password);}
     }
