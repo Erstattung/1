@@ -1,5 +1,6 @@
 .DS_Store
 notCrush/.idea/
+notCrush/.lib/
 notCrush/persistence/target/
 *.iml
 *.iws
